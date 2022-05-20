@@ -1,4 +1,8 @@
 import React from 'react'
+import Navigation from './Navigation'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
 
 const App = () => {
   return (
