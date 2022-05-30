@@ -1,16 +1,19 @@
 import React from 'react'
-import Container from './Container'
-import NotFound from './NotFound'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
+import Navigation from './Navigation'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import GlobalStyles from '../styled/Global.style.js'
 const App = () => {
   return (
-    <Router >
-      <Routes>
-        <Route path="/" element={<Container />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+    <>
+      <GlobalStyles />
+      <h1 id="header" >Cameron Jones</h1>
+      <Navigation />
+      <About />
+      <Projects />
+      <Contact />
+    </>
   )
 }
 
