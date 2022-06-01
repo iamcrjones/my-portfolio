@@ -48,5 +48,28 @@ const GlobalStyles = createGlobalStyle`
     .aboutContent {
         padding: 0 5%;
     }
+    .header {
+        background-color: yellow;
+    }
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        max-width: 300px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border: 2px solid black;
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background-color: white;
+    }
 `
 export default GlobalStyles;

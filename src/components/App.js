@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <GlobalStyles />
-      <h1 id="header" >Cameron Jones</h1>
+      <h1 className="header" >Cameron Jones</h1>
       <Navigation />
       <About />
       <Projects />
