@@ -1,28 +1,19 @@
+import React from 'react';
+import list from '../data/ProjectData.json'
 const Projects = () => {
+    console.log(list[0].name)
+    console.log(list[1].name)
+    console.log(list[2].name)
     return(
         <>
             <div id="projectContainer">
-                <h4>Projects here</h4>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
-                <p>projects go here</p>
+                    <div className="banner">
+                        <h2>Projects</h2>
+                    </div>
+                    <div>
+                        <p>here are my projects</p>
+                        <p></p>
+                    </div>
             </div>
         </>
     )
