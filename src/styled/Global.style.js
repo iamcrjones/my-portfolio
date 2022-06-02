@@ -84,6 +84,7 @@ const GlobalStyles = createGlobalStyle`
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    margin: 0;
     }
 
     /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -120,9 +121,16 @@ const GlobalStyles = createGlobalStyle`
 
     /* Style the back side */
     .card-back {
+    align-items: center;
     background-color: ${colors.color3};
     color: white;
     transform: rotateY(180deg);
+    }
+
+    .card-back p {
+        align-text: center;
+        max-width: 90%;
+        margin-left: 5%;
     }
 `
 export default GlobalStyles;

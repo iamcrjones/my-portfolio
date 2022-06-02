@@ -15,8 +15,8 @@ const Projects = () => {
                                     <img src={project.image} alt='github'/>
                                 </div>
                                 <div className="card-back">
-                                    <p>description here</p>
-                                    <a href={project.url} rel="noreferrer" target='_blank'>Link to repo</a>
+                                    <p>{project.description}</p>
+                                    <a href={project.url} rel="noreferrer" target='_blank'>View GitHub Repo</a>
                                 </div>
                             </div>
                         </div>)}

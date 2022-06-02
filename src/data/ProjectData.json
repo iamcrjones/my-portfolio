@@ -1,5 +1,5 @@
 [
-    {"id": "1", "name": "Terminal Monsters", "url": "https://github.com/iamcrjones/Terminal-Monsters", "image": "https://repository-images.githubusercontent.com/436605976/ac72dd4f-62bb-4584-9f12-0b9224a9335a"},
-    {"id": "2", "name": "YourNextCharacter", "url": "https://github.com/iamcrjones/YourNextCharacter", "image": "https://repository-images.githubusercontent.com/465562691/a1cef531-05d3-4898-9234-1155d8e78734"},
-    {"id": "3", "name": "Colours of Kanye", "url": "https://github.com/AnderDevitt/colours-of-kanye", "image": "https://github.com/AnderDevitt/colours-of-kanye/blob/main/images/awsome_ye.jpg?raw=true"}
+    {"id": "1", "name": "Terminal Monsters", "url": "https://github.com/iamcrjones/Terminal-Monsters", "image": "https://repository-images.githubusercontent.com/436605976/ac72dd4f-62bb-4584-9f12-0b9224a9335a", "description": "A terminal application built with Ruby where monsters participate in turn based battle."},
+    {"id": "2", "name": "YourNextCharacter", "url": "https://github.com/iamcrjones/YourNextCharacter", "image": "https://repository-images.githubusercontent.com/465562691/a1cef531-05d3-4898-9234-1155d8e78734", "description": "A web application built with Ruby on Rails using PostgreSQL which allows users to upload and download character sheet files for role playing games."},
+    {"id": "3", "name": "Colours of Kanye", "url": "https://github.com/AnderDevitt/colours-of-kanye", "image": "https://github.com/AnderDevitt/colours-of-kanye/blob/main/images/awsome_ye.jpg?raw=true", "description": "Hackathon project in which I collaborated with other developers to build a tool that help generate random colors and also witness the magnificent mind of Kanye."}
 ]
