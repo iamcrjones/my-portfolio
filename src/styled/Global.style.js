@@ -17,6 +17,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'IBM Plex Sans', sans-serif;
     }
     .navBar {
+        z-index: 1;
         display: flex;
         align-items: flex-start;
         position: sticky; top: 0;
@@ -63,6 +64,7 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
         text-align: center;
         width: 60%;
         height: 200px;
@@ -77,7 +79,7 @@ const GlobalStyles = createGlobalStyle`
 
     /* This container is needed to position the front and back side */
     .project {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
