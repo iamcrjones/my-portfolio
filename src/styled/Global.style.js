@@ -60,7 +60,7 @@ const GlobalStyles = createGlobalStyle`
     .projectCard {
         position: relative;
         width: 60%;
-        height: 200px;
+        height: 250px;
         margin-top: 10%;
         margin-bottom: 10%;
         background-color: transparent;
@@ -84,7 +84,7 @@ const GlobalStyles = createGlobalStyle`
 
     /* Position the front and back side */
     .card-front, .card-back {
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100%;
         -webkit-backface-visibility: hidden; /* Safari */
@@ -120,21 +120,22 @@ const GlobalStyles = createGlobalStyle`
         margin-left: 5%;
     }
     .links {
-        display: flex;
+        display: inline-block;
         justify-content: center;
         align-items: center;
-        max-height: 100%;
-        max-width: 100%;
+        height: 3em;
     }
     .links a{
+        display: inline-block;
+        cursor: pointer;
+        max-width: 7em;
+        width: 100%;
+        height: 3em;
         text-decoration: none;
-        position: absolute;
         color: black;
         border: 2px solid ${colors.color5};
         border-radius: 10px;
         background-color: ${colors.color4};
-        margin-top: 10%;
-
     }
     .links a:hover {
         background-color: ${colors.color7}
