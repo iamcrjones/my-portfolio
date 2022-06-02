@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
     .banner {
         display: flex;
         justify-content: center;
-        border: 2px solid red;
+        border: 2px solid ${colors.color4};
         background-color: ${colors.color5};
         padding: 0.5em 0;
     }
@@ -112,7 +112,6 @@ const GlobalStyles = createGlobalStyle`
         color: white;
         transform: rotateY(180deg);
         text-align: center;
-        border: 2px solid cyan;
     }
 
     .card-back p {
