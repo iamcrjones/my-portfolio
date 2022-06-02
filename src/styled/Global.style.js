@@ -19,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
     .navBar {
         display: flex;
         align-items: flex-start;
+        position: sticky; top: 0;
         border: 1px solid black;
         background-color: ${colors.color2};
         color: ${colors.color3};
@@ -63,7 +64,7 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         align-items: center;
         text-align: left;
-        max-width: 300px;
+        width: 60%;
         margin-top: 10%;
         margin-bottom: 10%;
         border: 2px solid black;

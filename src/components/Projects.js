@@ -12,6 +12,7 @@ const Projects = () => {
                             <p>insert project img here</p>
                             <h4>Name:</h4>
                             <p>{project.name}</p>
+                            <p>description here</p>
                         </div>)}
                     </div>
             </div>
