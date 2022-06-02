@@ -9,10 +9,16 @@ const Projects = () => {
                     </div>
                     <div className="cardContainer">
                         {list.map(project => <div className="projectCard" key={project.id}>
-                            <p>insert project img here</p>
-                            <h4>Name:</h4>
-                            <p>{project.name}</p>
-                            <p>description here</p>
+                            <div className="project">
+                                <div className="card-front">
+                                    <p>insert project img here</p>
+                                    <h3>{project.name}</h3>
+                                </div>
+                                <div className="card-back">
+                                    <p>description here</p>
+                                    <a href={project.url} rel="noreferrer" target='_blank'>Link to repo</a>
+                                </div>
+                            </div>
                         </div>)}
                     </div>
             </div>

@@ -63,14 +63,53 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: left;
+        text-align: center;
         width: 60%;
+        height: 200px;
         margin-top: 10%;
         margin-bottom: 10%;
-        border: 2px solid black;
-        box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+        //border: 2px solid black;
+        //box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color: white;
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    /* This container is needed to position the front and back side */
+    .project {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .projectCard:hover .project {
+    transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+    .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    }
+
+    /* Style the front side (fallback if image is missing) */
+    .card-front {
+    background-color: ${colors.color2};
+    color: black;
+    }
+
+    /* Style the back side */
+    .card-back {
+    background-color: ${colors.color3};
+    color: white;
+    transform: rotateY(180deg);
     }
 `
 export default GlobalStyles;
