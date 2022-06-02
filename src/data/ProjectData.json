@@ -1,5 +1,5 @@
 [
-    {"id": "1", "name": "Terminal Monsters", "url": "https://github.com/iamcrjones/Terminal-Monsters"},
-    {"id": "2", "name": "YourNextCharacter", "url": "https://github.com/iamcrjones/YourNextCharacter"},
-    {"id": "3", "name": "Colours of Kanye", "url": "https://github.com/AnderDevitt/colours-of-kanye"}
+    {"id": "1", "name": "Terminal Monsters", "url": "https://github.com/iamcrjones/Terminal-Monsters", "image": "https://repository-images.githubusercontent.com/436605976/ac72dd4f-62bb-4584-9f12-0b9224a9335a"},
+    {"id": "2", "name": "YourNextCharacter", "url": "https://github.com/iamcrjones/YourNextCharacter", "image": ""},
+    {"id": "3", "name": "Colours of Kanye", "url": "https://github.com/AnderDevitt/colours-of-kanye", "image": ""}
 ]

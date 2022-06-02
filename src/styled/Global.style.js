@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-//import Navigation from '../components/Navigation'
 const colors = {
     color1: '#CEB5B7',
     color2: '#E69597',
@@ -105,6 +104,18 @@ const GlobalStyles = createGlobalStyle`
     .card-front {
     background-color: ${colors.color2};
     color: black;
+    }
+    .card-front h3 {
+        margin: 0;
+    }
+    .card-front img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    .repoImage {
+        width: 60%;
     }
 
     /* Style the back side */

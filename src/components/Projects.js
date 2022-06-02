@@ -11,8 +11,8 @@ const Projects = () => {
                         {list.map(project => <div className="projectCard" key={project.id}>
                             <div className="project">
                                 <div className="card-front">
-                                    <p>insert project img here</p>
                                     <h3>{project.name}</h3>
+                                    <img src={project.image} alt='github'/>
                                 </div>
                                 <div className="card-back">
                                     <p>description here</p>
