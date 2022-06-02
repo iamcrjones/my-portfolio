@@ -107,27 +107,36 @@ const GlobalStyles = createGlobalStyle`
 
     /* Style the back side */
     .card-back {
+        align-items: center;
         background-color: ${colors.color3};
         color: white;
         transform: rotateY(180deg);
         text-align: center;
+        border: 2px solid cyan;
     }
 
     .card-back p {
         max-width: 90%;
         margin-left: 5%;
     }
-    .card-back a {
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .links a{
         text-decoration: none;
-        align-self: center;
         position: absolute;
         color: black;
         border: 2px solid ${colors.color5};
         border-radius: 10px;
         background-color: ${colors.color4};
-        padding-left: -10%;
+        margin-top: 10%;
+
     }
-    .links:hover {
+    .links a:hover {
         background-color: ${colors.color7}
     }
 `

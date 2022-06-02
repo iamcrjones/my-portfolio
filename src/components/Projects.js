@@ -16,7 +16,9 @@ const Projects = () => {
                                 </div>
                                 <div className="card-back">
                                     <p>{project.description}</p>
-                                    <a href={project.url} rel="noreferrer" target='_blank'>View GitHub Repo</a>
+                                    <div className="links">
+                                        <a href={project.url} rel="noreferrer" target='_blank'>View GitHub Repo</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>)}
