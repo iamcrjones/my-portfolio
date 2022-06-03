@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from './Navigation'
+import Navigation2 from './Navigation2'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <GlobalStyles />
       <h1 className="header" >Cameron Jones</h1>
-      <Navigation />
+      <Navigation2 />
       <About />
       <Projects />
       <Contact />

@@ -10,10 +10,16 @@ const colors = {
 }
 
 const GlobalStyles = createGlobalStyle`
+    .MuiButton-root {
+        background-color: ${colors.color7}
+    }
+    .MuiToolbar-root {
+        background-color: ${colors.color3}
+    }
     body {
         background-color: ${colors.color6};
-        // color: ${colors.color3}
         font-family: 'IBM Plex Sans', sans-serif;
+        margin-top: 60px;
     }
     .navBar {
         z-index: 1;
