@@ -8,55 +8,65 @@ const colors = {
     color6: '#EFF1F3',
     color7: '#223843'
 }
+const pallet= {
+    color1: '#D4F1F4',
+    color2: '#75E6DA',
+    color3: '#189AB4',
+    color4: '#05445E'
+}
 
 const GlobalStyles = createGlobalStyle`
     .MuiButton-root {
-        background-color: ${colors.color7}
+        background-color: ${pallet.color4}
+    }
+    .MuiButton-root:hover {
+        background-color: ${pallet.color2}
     }
     .MuiToolbar-root {
-        background-color: ${colors.color3}
+        background-color: ${pallet.color3}
     }
     body {
-        background-color: ${colors.color6};
+        background-color: ${pallet.color1};
         font-family: 'IBM Plex Sans', sans-serif;
         margin-top: 60px;
     }
-    .navBar {
-        z-index: 1;
-        display: flex;
-        align-items: flex-start;
-        position: sticky; top: 0;
-        border: 1px solid black;
-        background-color: ${colors.color2};
-        color: ${colors.color3};
-    }
-    .navBar ul {
-        display: flex;
-        justify-content: flex-start;
-        border: 2px solid red;
-        padding: 0;
-    }
-    .navBar li {
-        display: flex;
-        list-style-type: none;
-        border: 2px solid ${colors.color1};
-        padding: 5px;
-        margin: 5px;
-        background-color: ${colors.color3};
-        color: black;
-    }
+    // .navBar {
+    //     z-index: 1;
+    //     display: flex;
+    //     align-items: flex-start;
+    //     position: sticky; top: 0;
+    //     border: 1px solid black;
+    //     background-color: ${colors.color2};
+    //     color: ${colors.color3};
+    // }
+    // .navBar ul {
+    //     display: flex;
+    //     justify-content: flex-start;
+    //     border: 2px solid red;
+    //     padding: 0;
+    // }
+    // .navBar li {
+    //     display: flex;
+    //     list-style-type: none;
+    //     border: 2px solid ${colors.color1};
+    //     padding: 5px;
+    //     margin: 5px;
+    //     background-color: ${colors.color3};
+    //     color: black;
+    // }
     .banner {
         display: flex;
         justify-content: center;
         border: 2px solid ${colors.color4};
-        background-color: ${colors.color5};
+        background-color: ${pallet.color3};
+        color: white;
         padding: 0.5em 0;
     }
     .aboutContent {
         padding: 0 5%;
     }
     .header {
-        background-color: yellow;
+        //background-color: yellow;
     }
     .cardContainer {
         display: flex;
@@ -99,8 +109,8 @@ const GlobalStyles = createGlobalStyle`
 
     /* Style the front side (fallback if image is missing) */
     .card-front {
-        background-color: ${colors.color2};
-        color: black;
+        background-color: ${pallet.color3};
+        color: white;
     }
     .card-front h3 {
         margin: 0;
@@ -114,7 +124,7 @@ const GlobalStyles = createGlobalStyle`
     /* Style the back side */
     .card-back {
         align-items: center;
-        background-color: ${colors.color3};
+        background-color: ${pallet.color3};
         color: white;
         transform: rotateY(180deg);
         text-align: center;
