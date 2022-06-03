@@ -1,4 +1,4 @@
-import { AppBar, Button, IconButton, Menu, Toolbar } from "@mui/material";
+import { AppBar, Button, Toolbar } from "@mui/material";
 import React from "react";
 import { Link } from "react-scroll";
 
