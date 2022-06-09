@@ -17,7 +17,10 @@ const pallet= {
 
 const GlobalStyles = createGlobalStyle`
     .MuiButton-root {
-        background-color: ${pallet.color4}
+        background-color: ${pallet.color4};
+        border: 0px solid black;
+        border-top-left-radius: 8rem 8rem;
+        border-bottom-right-radius: 8rem 8rem;
     }
     .MuiButton-root:hover {
         background-color: ${pallet.color2}
@@ -27,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
     }
     body {
         background-color: ${pallet.color1};
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         margin-top: 60px;
     }
     // .navBar {
@@ -61,6 +64,11 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${pallet.color3};
         color: white;
         padding: 0.5em 0;
+        border: 2px solid black;
+        border-top-left-radius: 2rem 2rem;
+        border-top-right-radius: 2rem 2rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
     }
     .aboutContent {
         padding: 0 5%;
@@ -91,6 +99,7 @@ const GlobalStyles = createGlobalStyle`
         transition: transform 0.8s;
         transform-style: preserve-3d;
         margin: 0;
+        border: 2px solid black;
     }
 
     /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -135,25 +144,16 @@ const GlobalStyles = createGlobalStyle`
         margin-left: 5%;
     }
     .links {
-        display: inline-block;
+        display: flex;
         justify-content: center;
-        align-items: center;
-        height: 3em;
+        align-items: flex-end;
+        height: 8rem;
     }
-    .links a{
-        display: inline-block;
-        cursor: pointer;
-        max-width: 7em;
-        width: 100%;
-        height: 3em;
+    .links Button{
+        display: flex;
+        justify-content: center;
         text-decoration: none;
-        color: black;
-        border: 2px solid ${colors.color5};
-        border-radius: 10px;
-        background-color: ${colors.color4};
-    }
-    .links a:hover {
-        background-color: ${colors.color7}
+        background-color: ${pallet.color4};
     }
 `
 export default GlobalStyles;

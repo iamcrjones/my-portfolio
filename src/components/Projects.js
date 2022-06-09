@@ -1,3 +1,4 @@
+import { Button, Link } from '@mui/material';
 import React from 'react';
 import list from '../data/ProjectData.json'
 const Projects = () => {
@@ -17,7 +18,10 @@ const Projects = () => {
                                 <div className="card-back">
                                     <p>{project.description}</p>
                                     <div className="links">
-                                        <a href={project.url} rel="noreferrer" target='_blank'>View GitHub Repo</a>
+                                        <Button>
+                                            <Link href={project.url} rel="noreferrer" target="_blank" underline="none" color="#fff">View GitHub Repo</Link>
+                                            {/* <a href={project.url} rel="noreferrer" target='_blank'>View GitHub Repo</a> */}
+                                        </Button>
                                     </div>
                                 </div>
                             </div>
