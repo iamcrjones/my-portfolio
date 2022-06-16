@@ -11,9 +11,9 @@ const Contact = () => {
                     <h2>Contact Info</h2>
                 </div>
                 <div className="iconContainer">
-                    <Link href="mailto:iamcrjones@gmail.com" target="_blank"><MailIcon sx={{ fontSize: 40 }}/></Link>
-                    <Link href="https://www.linkedin.com/in/iamcrjones/" rel="noreferrer" target="_blank"><LinkedInIcon sx={{ fontSize: 40 }}/></Link>
-                    <Link href="https://github.com/iamcrjones" rel="noreferrer" target="_blank"><GitHubIcon sx={{ fontSize: 40 }}/></Link>
+                    <Link href="mailto:iamcrjones@gmail.com" target="_blank"><MailIcon sx={{ fontSize: 60 }}/></Link>
+                    <Link href="https://www.linkedin.com/in/iamcrjones/" rel="noreferrer" target="_blank"><LinkedInIcon sx={{ fontSize: 60 }}/></Link>
+                    <Link href="https://github.com/iamcrjones" rel="noreferrer" target="_blank"><GitHubIcon sx={{ fontSize: 60 }}/></Link>
                 </div>
             </div>
         </>
