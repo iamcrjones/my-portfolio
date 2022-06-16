@@ -147,12 +147,14 @@ const GlobalStyles = createGlobalStyle`
     .card-back p {
         max-width: 90%;
         margin-left: 5%;
+        height: 130px;
     }
     .links {
         display: flex;
+        position: relative;
         justify-content: center;
         align-items: center;
-        height: 8rem;
+        height: 40%;
     }
     .links Button{
         display: flex;
