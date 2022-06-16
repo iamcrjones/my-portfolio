@@ -63,17 +63,22 @@ const GlobalStyles = createGlobalStyle`
     // }
     .banner {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         position: relative;
+        left: 0;
+        right: 0;
         border: 2px solid ${colors.color4};
         background-color: ${pallet.color3};
         color: white;
         padding: 0.5em 0;
         border: 2px solid black;
-        border-top-left-radius: 2rem 2rem;
-        border-top-right-radius: 2rem 2rem;
-        border-bottom-left-radius: 2rem;
-        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 8rem 8rem;
+        border-bottom-right-radius: 8rem 8rem;
+        width: 80%;
+        height: 2.5rem;
+        margin: 0 auto 0 auto;
     }
     .aboutContent {
         padding: 0 5%;
