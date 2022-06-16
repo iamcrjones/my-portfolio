@@ -69,16 +69,16 @@ const GlobalStyles = createGlobalStyle`
         position: relative;
         left: 0;
         right: 0;
-        border: 2px solid ${colors.color4};
+        border: 0px solid white;
         background-color: ${pallet.color3};
         color: white;
         padding: 0.5em 0;
-        border: 2px solid black;
         border-top-left-radius: 8rem 8rem;
         border-bottom-right-radius: 8rem 8rem;
         width: 80%;
         height: 2.5rem;
         margin: 0 auto 0 auto;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 40%), 0px 4px 5px 0px rgb(0 0 0 / 22%), 0px 1px 10px 0px rgb(0 0 0 / 25%)
     }
     .aboutContent {
         width: 80%;
