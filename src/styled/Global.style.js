@@ -28,6 +28,9 @@ const GlobalStyles = createGlobalStyle`
     .MuiToolbar-root {
         background-color: ${pallet.color3}
     }
+    .MuiSvgIcon-root {
+        color: ${pallet.color3};
+    }
     body {
         background-color: ${pallet.color1};
         font-family: 'Roboto', sans-serif;
@@ -154,6 +157,10 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         text-decoration: none;
         background-color: ${pallet.color4};
+    }
+    .iconContainer {
+        display: flex;
+        justify-content: space-around;
     }
 `
 export default GlobalStyles;
