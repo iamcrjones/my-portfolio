@@ -81,7 +81,8 @@ const GlobalStyles = createGlobalStyle`
         margin: 0 auto 0 auto;
     }
     .aboutContent {
-        padding: 0 5%;
+        width: 80%;
+        margin: 0 auto 0 auto;
     }
     .header {
         //background-color: yellow;
