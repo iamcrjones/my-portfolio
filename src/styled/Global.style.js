@@ -21,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
         border: 0px solid black;
         border-top-left-radius: 8rem 8rem;
         border-bottom-right-radius: 8rem 8rem;
+        font-weight: 600;
     }
     .MuiButton-root:hover {
         background-color: ${pallet.color2}
@@ -63,6 +64,7 @@ const GlobalStyles = createGlobalStyle`
     .banner {
         display: flex;
         justify-content: center;
+        position: relative;
         border: 2px solid ${colors.color4};
         background-color: ${pallet.color3};
         color: white;
@@ -149,7 +151,7 @@ const GlobalStyles = createGlobalStyle`
     .links {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         height: 8rem;
     }
     .links Button{
