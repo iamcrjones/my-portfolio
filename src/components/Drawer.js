@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import { Link } from "react-scroll";
-import { Card } from '@mui/material';
+//import { Card } from '@mui/material';
 
 // import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
@@ -55,33 +55,33 @@ export default function TemporaryDrawer() {
     <div className='menu'>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}variant='contained'>Menu</Button>
+          <Button classname="menubutton"onClick={toggleDrawer(anchor, true)}variant='contained'>Menu</Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
           >
           <Box
-            sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 200 }}
+            sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 150 }}
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
           >
-            <Card variant="contained" >
-              <Link className='linky' to="header" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>Home</Link>
-            </Card>
+            <Button variant="contained">
+                <Link className='linky' to="header" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>Home</Link>
+            </Button>
             <Divider />
-            <Card variant="contained">
+            <Button variant="contained">
               <Link className='linky' to="aboutContainer" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>About</Link>
-            </Card>
+            </Button>
             <Divider />
-            <Card variant="contained">
+            <Button variant="contained">
               <Link className='linky' to="projectContainer" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>Projects</Link>
-            </Card>
+            </Button>
             <Divider />
-            <Card variant="contained">
+            <Button variant="contained">
               <Link className='linky' to="contactContainer" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>Contact</Link>
-            </Card>
+            </Button>
           </Box>
             {/* {list} */}
           </Drawer>

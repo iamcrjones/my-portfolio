@@ -22,6 +22,8 @@ const GlobalStyles = createGlobalStyle`
         border-top-left-radius: 8rem 8rem;
         border-bottom-right-radius: 8rem 8rem;
         font-weight: 600;
+        margin: 10px;
+        padding: 6px 16px;
     }
     .MuiButton-root:hover {
         background-color: ${pallet.color2}
@@ -42,15 +44,19 @@ const GlobalStyles = createGlobalStyle`
         color: white;
     }
     .MuiBox-root {
-        background-color: ${pallet.color3}05
+       // background-color: ${pallet.color3}05
+       justify-content: center;
+       align-items: center;
+    }
+    .MuiBox-root .MuiButton-root{
+        padding: 0;
     }
     .linky {
-        width: 100%;
-        height: 100%;
         cursor: pointer;
+        padding: 6px 16px;
     }
     .MuiPaper-root {
-        background-color: ${pallet.color3}50
+        background-color: ${colors.color6}80
     }
     .MuiCard-root {
         background-color: ${pallet.color3};
