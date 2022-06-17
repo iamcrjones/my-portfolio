@@ -39,6 +39,22 @@ const GlobalStyles = createGlobalStyle`
         margin-bottom: 20px;
         z-index: 1;
         width: 98%;
+        color: white;
+    }
+    .MuiBox-root {
+        background-color: ${pallet.color3}05
+    }
+    .linky {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .MuiPaper-root {
+        background-color: ${pallet.color3}50
+    }
+    .MuiCard-root {
+        background-color: ${pallet.color3};
+        height: 60%;
     }
     body {
         background-color: ${pallet.color1};
