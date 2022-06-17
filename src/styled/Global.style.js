@@ -51,6 +51,13 @@ const GlobalStyles = createGlobalStyle`
     .MuiBox-root .MuiButton-root{
         padding: 0;
     }
+    .MuiBox-root .MuiButton-root .active{
+        border: 0px solid black;
+        border-top-left-radius: 8rem 8rem;
+        border-bottom-right-radius: 8rem 8rem;
+        background-color: ${pallet.color2};
+
+    }
     .linky {
         cursor: pointer;
         padding: 6px 16px;
