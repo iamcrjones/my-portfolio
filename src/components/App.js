@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation2 from './Navigation2'
+//import Navigation2 from './Navigation2'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -9,8 +9,8 @@ const App = () => {
   return (
     <>
       <GlobalStyles />
-      <h1 className="header" >Cameron Jones</h1>
       <TemporaryDrawer />
+      <h1 className="header" >Cameron Jones</h1>
       <About />
       <Projects />
       <Contact />

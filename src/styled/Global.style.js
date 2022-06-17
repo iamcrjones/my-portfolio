@@ -32,6 +32,14 @@ const GlobalStyles = createGlobalStyle`
     .MuiSvgIcon-root {
         color: ${pallet.color3};
     }
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        margin-bottom: 20px;
+        z-index: 1;
+        width: 98%;
+    }
     body {
         background-color: ${pallet.color1};
         font-family: 'Roboto', sans-serif;
@@ -85,7 +93,7 @@ const GlobalStyles = createGlobalStyle`
         margin: 0 auto 0 auto;
     }
     .header {
-        //background-color: yellow;
+        //margin-top: 0;
     }
     .cardContainer {
         display: flex;
