@@ -4,12 +4,13 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import GlobalStyles from '../styled/Global.style.js'
+import TemporaryDrawer from './Drawer.js'
 const App = () => {
   return (
     <>
       <GlobalStyles />
       <h1 className="header" >Cameron Jones</h1>
-      <Navigation2 />
+      <TemporaryDrawer />
       <About />
       <Projects />
       <Contact />

@@ -78,7 +78,7 @@ const GlobalStyles = createGlobalStyle`
         width: 80%;
         height: 2.5rem;
         margin: 0 auto 0 auto;
-        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 40%), 0px 4px 5px 0px rgb(0 0 0 / 22%), 0px 1px 10px 0px rgb(0 0 0 / 25%)
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 40%), 0px 4px 5px 0px rgb(0 0 0 / 22%), 0px 1px 10px 0px rgb(0 0 0 / 25%);
     }
     .aboutContent {
         width: 80%;
@@ -104,7 +104,7 @@ const GlobalStyles = createGlobalStyle`
 
     /* This container is needed to position the front and back side */
     .project {
-        position: absolute;
+        position: relative;
         width: 100%;
         height: 100%;
         transition: transform 0.8s;
@@ -123,7 +123,7 @@ const GlobalStyles = createGlobalStyle`
         position: fixed;
         width: 100%;
         height: 100%;
-        -webkit-backface-visibility: hidden; /* Safari */
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
