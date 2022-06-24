@@ -28,9 +28,6 @@ const GlobalStyles = createGlobalStyle`
     .MuiButton-root:hover {
         background-color: ${pallet.color2}
     }
-    .MuiToolbar-root {
-        background-color: ${pallet.color3}
-    }
     .MuiSvgIcon-root {
         color: ${pallet.color3};
     }
@@ -40,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
         position: fixed;
         margin-bottom: 20px;
         z-index: 1;
-        width: 98%;
+        width: 100%;
         color: white;
     }
     .MuiBox-root {
@@ -67,7 +64,16 @@ const GlobalStyles = createGlobalStyle`
     }
     .MuiCard-root {
         background-color: ${pallet.color3};
-        height: 60%;
+        height: 80%;
+        width: 80%;
+        margin: 1rem 0 1rem 0;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 40%), 0px 4px 5px 0px rgb(0 0 0 / 22%), 0px 1px 10px 0px rgb(0 0 0 / 25%);
+    }
+    .MuiCardContent-root {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     body {
         background-color: ${pallet.color1};
