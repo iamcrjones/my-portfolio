@@ -34,10 +34,12 @@ const GlobalStyles = createGlobalStyle`
     .menu {
         display: flex;
         justify-content: flex-end;
+        align-items: flex-end;
         position: fixed;
+        margin-left: 90%;
         margin-bottom: 20px;
         z-index: 1;
-        width: 100%;
+        width: 10%;
         color: white;
     }
     .MuiBox-root {
@@ -77,10 +79,12 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         align-items: center;
         margin: 5%;
-        background-color: white;
+        background-color: ${pallet.color1};
         border: 0px solid black;
         border-radius: 0.5rem;
+        align-text: center;
     }
+
     body {
         background-color: ${pallet.color1};
         font-family: 'Roboto', sans-serif;
