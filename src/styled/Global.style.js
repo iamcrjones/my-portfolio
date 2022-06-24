@@ -70,8 +70,8 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${colors.color6}80
     }
     .MuiCard-root {
-        background-color: ${pallet.emerald};
-        width: 80%;
+        background-color: ${colors.color6};
+        width: 75%;
         margin: 1rem 0 1rem 0;
         border: 0px solid black;
         border-radius: 1rem;
@@ -83,7 +83,7 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         align-items: center;
         margin: 2%;
-        background-color: ${colors.color6};
+        //background-color: ${colors.color6};
         border: 0px solid black;
         border-radius: 1rem;
         align-text: center;
