@@ -78,10 +78,10 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 5%;
+        margin: 2%;
         background-color: ${pallet.color1};
         border: 0px solid black;
-        border-radius: 0.5rem;
+        border-radius: 1rem;
         align-text: center;
     }
 
