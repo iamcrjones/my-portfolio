@@ -12,12 +12,15 @@ const pallet= {
     color1: '#D4F1F4',
     color2: '#75E6DA',
     color3: '#189AB4',
-    color4: '#05445E'
+    color4: '#05445E',
+    emerald: '#50c878',
+    forest: '#228b22',
+    lime: '#98fb98'
 }
 
 const GlobalStyles = createGlobalStyle`
     .MuiButton-root {
-        background-color: ${pallet.color4};
+        background-color: ${pallet.emerald};
         border: 0px solid black;
         border-top-left-radius: 8rem 8rem;
         border-bottom-right-radius: 8rem 8rem;
@@ -26,10 +29,10 @@ const GlobalStyles = createGlobalStyle`
         padding: 6px 16px;
     }
     .MuiButton-root:hover {
-        background-color: ${pallet.color2}
+        background-color: ${pallet.lime}
     }
     .MuiSvgIcon-root {
-        color: ${pallet.color3};
+        color: ${pallet.emerald};
     }
     .menu {
         display: flex;
@@ -42,6 +45,9 @@ const GlobalStyles = createGlobalStyle`
         width: 10%;
         color: white;
     }
+    .menu Button{
+        background-color: ${pallet.forest}
+    }
     .MuiBox-root {
        justify-content: center;
        align-items: center;
@@ -53,7 +59,7 @@ const GlobalStyles = createGlobalStyle`
         border: 0px solid black;
         border-top-left-radius: 8rem 8rem;
         border-bottom-right-radius: 8rem 8rem;
-        background-color: ${pallet.color2};
+        background-color: ${pallet.lime};
 
     }
     .linky {
@@ -64,7 +70,7 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${colors.color6}80
     }
     .MuiCard-root {
-        background-color: ${pallet.color3};
+        background-color: ${pallet.emerald};
         width: 80%;
         margin: 1rem 0 1rem 0;
         border: 0px solid black;
@@ -77,7 +83,7 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         align-items: center;
         margin: 2%;
-        background-color: ${pallet.color1};
+        background-color: ${colors.color6};
         border: 0px solid black;
         border-radius: 1rem;
         align-text: center;
@@ -103,7 +109,7 @@ const GlobalStyles = createGlobalStyle`
         left: 0;
         right: 0;
         border: 0px solid white;
-        background-color: ${pallet.color3};
+        background-color: ${pallet.emerald};
         color: white;
         padding: 0.5em 0;
         border-top-left-radius: 8rem 8rem;
@@ -119,9 +125,12 @@ const GlobalStyles = createGlobalStyle`
     }
     .header {
         margin: 0;
+        color: ${pallet.emerald};
     }
     .header2 {
         margin-top: 0;
+        color: ${pallet.emerald};
+
     }
     .cardContainer {
         display: flex;
