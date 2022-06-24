@@ -27,6 +27,7 @@ const GlobalStyles = createGlobalStyle`
         font-weight: 600;
         margin: 10px;
         padding: 6px 16px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 40%), 0px 4px 5px 0px rgb(0 0 0 / 22%), 0px 1px 10px 0px rgb(0 0 0 / 25%);
     }
     .MuiButton-root:hover {
         background-color: ${pallet.lime}
