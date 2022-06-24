@@ -69,7 +69,7 @@ export default function TemporaryDrawer() {
               onKeyDown={toggleDrawer(anchor, false)}
             >
               <Button variant="contained">
-                  <Link className='linky' to="header" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>Home</Link>
+                  <Link className='linky' to="greet" spy={true} smooth={true} offset={-10} duration={550} onClick={toggleDrawer(anchor, false)}>Home</Link>
               </Button>
               <Divider />
               <Button variant="contained">

@@ -10,7 +10,10 @@ const App = () => {
     <>
       <GlobalStyles />
       <TemporaryDrawer />
-      <h1 className="header" >Cameron Jones</h1>
+      <h1 className="greet">Greetings! My name is</h1>
+      <h1 className="header" >Cameron</h1>
+      <h1 className="header2" >Jones</h1>
+
       <About />
       <Projects />
       <Contact />
