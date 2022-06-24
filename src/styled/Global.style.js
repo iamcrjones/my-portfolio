@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
         justify-content: flex-end;
         align-items: flex-end;
         position: fixed;
-        margin-left: 90%;
+        margin-left: 87.5%;
         margin-bottom: 20px;
         z-index: 1;
         width: 10%;
@@ -66,7 +66,6 @@ const GlobalStyles = createGlobalStyle`
     }
     .MuiCard-root {
         background-color: ${pallet.color3};
-        height: 80%;
         width: 80%;
         margin: 1rem 0 1rem 0;
         border: 0px solid black;
@@ -224,6 +223,9 @@ const GlobalStyles = createGlobalStyle`
     .iconContainer {
         display: flex;
         justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
     }
 `
 export default GlobalStyles;
