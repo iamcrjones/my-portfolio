@@ -67,6 +67,8 @@ const GlobalStyles = createGlobalStyle`
         height: 80%;
         width: 80%;
         margin: 1rem 0 1rem 0;
+        border: 0px solid black;
+        border-radius: 1rem;
         box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 40%), 0px 4px 5px 0px rgb(0 0 0 / 22%), 0px 1px 10px 0px rgb(0 0 0 / 25%);
     }
     .MuiCardContent-root {
@@ -74,6 +76,10 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 5%;
+        background-color: white;
+        border: 0px solid black;
+        border-radius: 0.5rem;
     }
     body {
         background-color: ${pallet.color1};
