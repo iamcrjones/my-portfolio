@@ -56,7 +56,7 @@ export default function TemporaryDrawer() {
       <div className='menu'>
         {['right'].map((anchor) => (
           <React.Fragment key={anchor}>
-            <Button classname="menubutton"onClick={toggleDrawer(anchor, true)}variant='contained'>Menu</Button>
+            <Button className="menubutton"onClick={toggleDrawer(anchor, true)}variant='contained'>Menu</Button>
             <Drawer
               anchor={anchor}
               open={state[anchor]}

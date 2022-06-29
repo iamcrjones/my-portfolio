@@ -159,5 +159,10 @@ const GlobalStyles = createGlobalStyle`
         margin: auto;
         margin-top: 10px;
     }
+    @media only screen and (min-width: 600px) {
+        body {
+            background-color: pink;
+        }
+    }
 `
 export default GlobalStyles;
