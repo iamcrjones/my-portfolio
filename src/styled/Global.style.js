@@ -160,8 +160,14 @@ const GlobalStyles = createGlobalStyle`
         margin-top: 10px;
     }
     @media only screen and (min-width: 600px) {
-        body {
-            background-color: pink;
+        .MuiCard-root {
+            max-width: 300px;
+        }
+        .cardContainer{
+            flex-direction: row;
+            justify-content: space-around;
+            max-width: 80%;
+            margin: 0 auto 0 auto;
         }
     }
 `
