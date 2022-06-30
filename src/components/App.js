@@ -19,9 +19,9 @@ const App = () => {
 
   const iconToggle = () => {
     if(theme === 'light'){
-      return <LightModeIcon />
+      return <LightModeIcon fontSize="large"/>
     }else {
-      return <NightlightIcon />
+      return <NightlightIcon fontSize="large"/>
     }
   }
   return (
