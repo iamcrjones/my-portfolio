@@ -45,6 +45,7 @@ const GlobalStyles = createGlobalStyle`
         z-index: 1;
         width: 10%;
         color: white;
+        padding-top: 20px;
     }
     .menu Button{
         background-color: ${pallet.forest}
@@ -91,7 +92,6 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background-color: white;
         font-family: 'Roboto', sans-serif;
         //margin-top: 60px;
     }
@@ -159,9 +159,18 @@ const GlobalStyles = createGlobalStyle`
         margin: auto;
         margin-top: 10px;
     }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding:  0 25px 25px 10px;
+        max-width: 250px;
+        margin: 0;
+    }
     @media only screen and (min-width: 600px) {
         .MuiCard-root {
             max-width: 300px;
+            height: 350px;
         }
         .cardContainer{
             flex-direction: row;
