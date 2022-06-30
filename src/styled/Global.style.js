@@ -182,7 +182,19 @@ export const GlobalStyles = createGlobalStyle`
         max-width: 250px;
         margin: 0;
     }
-    @media only screen and (min-width: 600px) {
+
+    @media only screen and (min-width: 800px) {
+        .MuiCard-root {
+            max-width: 60%;
+        }
+        .cardContainer{
+            justify-content: space-around;
+            max-width: 80%;
+            margin: 0 auto 0 auto;
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
         .MuiCard-root {
             max-width: 300px;
             height: 350px;
