@@ -18,7 +18,17 @@ const pallet= {
     lime: '#98fb98'
 }
 
-const GlobalStyles = createGlobalStyle`
+export const lightTheme = {
+    body: "#fff",
+    color: "#000"
+}
+
+export const darkTheme = {
+    body: "#000",
+    color: "#fff"
+}
+
+export const GlobalStyles = createGlobalStyle`
     .MuiButton-root {
         background-color: ${pallet.emerald};
         border: 0px solid black;
@@ -46,6 +56,10 @@ const GlobalStyles = createGlobalStyle`
         width: 10%;
         color: white;
         padding-top: 20px;
+    }
+    .themeToggle .MuiSvgIcon-root{
+        color: ${(props) => props.theme.body};
+        padding: 5px;
     }
     .menu Button{
         background-color: ${pallet.forest}
@@ -85,13 +99,14 @@ const GlobalStyles = createGlobalStyle`
         justify-content: center;
         align-items: center;
         margin: 2%;
-        //background-color: ${colors.color6};
         border: 0px solid black;
         border-radius: 1rem;
         align-text: center;
     }
 
     body {
+        background-color: ${(props) => props.theme.body};
+        color: ${(props) => props.theme.color};
         font-family: 'Roboto', sans-serif;
         //margin-top: 60px;
     }
@@ -180,4 +195,3 @@ const GlobalStyles = createGlobalStyle`
         }
     }
 `
-export default GlobalStyles;
