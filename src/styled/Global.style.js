@@ -62,7 +62,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 5px;
     }
     .menu Button{
-        background-color: ${pallet.forest}
+        background-color: ${pallet.forest};
     }
     .MuiBox-root {
        justify-content: center;
