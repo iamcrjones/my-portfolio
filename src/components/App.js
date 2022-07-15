@@ -38,6 +38,7 @@ const App = () => {
         <About />
         <Projects />
         <Contact />
+        <h4>Website is still under construction 🛠</h4>
       </ThemeProvider>
     </>
   )
