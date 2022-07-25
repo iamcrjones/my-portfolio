@@ -15,7 +15,7 @@ const Projects = () => {
                                     <h3>{project.name}</h3>
                                     <p>{project.description}</p>
                                     <Button>
-                                            <Link href={project.url} rel="noreferrer" target="_blank" underline="none" color="#fff">View GitHub Repo</Link>
+                                            <Link href={project.url} rel="noreferrer" target="_blank" underline="none" color="#fff">GitHub Repo</Link>
                                     </Button>
                                     {project.deployed?
                                         <Button>

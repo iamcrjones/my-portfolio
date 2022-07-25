@@ -28,6 +28,8 @@ export const darkTheme = {
     color: "#fff"
 }
 
+
+
 export const GlobalStyles = createGlobalStyle`
     .MuiButton-root {
         background-color: ${pallet.emerald};
