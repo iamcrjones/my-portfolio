@@ -156,6 +156,11 @@ export const GlobalStyles = createGlobalStyle`
         align-items: center;
     }
 
+    .stackIcon {
+        width: 24px;
+        height: 24px;
+    }
+
     .links {
         display: flex;
         position: relative;
